@@ -1,10 +1,20 @@
-function getTriangleArea(a, h) {
-    if (a <= 0 || h <= 0 ) {
-        alert('Invalid value.');
-      }  return(a*h/2);
-    }
-    console.log(getTriangleArea(10, 6));    
+$(function(){
+	console.log('DOM loaded - you can have fun');
+});
+var span = $("span");
+span.each(function(index, element) {
+if(index % 2 == 0) {
+    $(element).css('color', 'red');
+}
+});
 
-var triangle1Area = getTriangleArea(10, 15);
-var triangle2Area = getTriangleArea(20, 30);
-var triangle3Area = getTriangleArea(30, 45);
+var paragraphs = $('p');
+paragraphs.each(function(index, element) {
+var button = '<button class="btn" data-tmp="' + index + '">Click me</button>';
+$(element).append(button);
+
+});
+
+$("button").click(function(){
+alert($(this).attr("data-tmp"));
+});
