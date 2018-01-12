@@ -1,6 +1,5 @@
 #carousel {
     /*border: solid black 2px;*/
-    display: block;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
@@ -14,4 +13,5 @@ img {
 }
 ul {
     list-style-type: none;
+
 }
