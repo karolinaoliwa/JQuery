@@ -1,17 +1,27 @@
 #carousel {
-    /*border: solid black 2px;*/
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-    width: 800px;
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
     overflow: hidden;
-
 }
 img {
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 400px;
 }
-ul {
-    list-style-type: none;
 
+li {
+    text-decoration: none;
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+
+ul {
+    width: 2000px;
+    height: 400px;
+    margin:0;
+    padding:0;
+    border:0;
+    vertical-align:baseline;
+    list-style:none;
 }
